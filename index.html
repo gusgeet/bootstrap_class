@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet"> <!-- CSS only -->
     <!-- CSS only -->
-<!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
 <body>
@@ -47,26 +49,71 @@
         <div class="row">
             <div class="col-3" style="width: 950px;" href="#">
                 <div class="mb-3 row">
-                    <h2>Inicio</h2>
+                    <h2 class="head2">Inicio</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis mi non metus semper, convallis fringilla justo placerat. Fusce pharetra vitae erat nec scelerisque. Praesent rhoncus dignissim risus a consectetur. Fusce sed orci non neque ultricies accumsan. Vestibulum risus quam, malesuada eget porttitor sed, maximus ut lorem. Nam non sem dapibus, euismod est vel, porttitor elit. Fusce congue augue erat, sit amet tempor leo fringilla ac. Sed nec metus tempus, ornare leo ac, blandit sem. In maximus orci et quam pulvinar tempus. Morbi et risus ut erat finibus ullamcorper. Aenean et lacus et arcu dictum iaculis eget eu erat. Nulla suscipit ligula a libero eleifend luctus. Integer neque arcu, ultrices eget dolor quis, dictum dictum dolor. Maecenas dui dolor, pulvinar vel nibh ac, consequat porttitor ligula.
                         Suspendisse quis urna et magna consectetur malesuada. Pellentesque mattis quis arcu sit amet sollicitudin. Nunc congue, mauris sit amet pulvinar fermentum, massa nulla dignissim leo, eu pulvinar tellus arcu vitae odio. Praesent in accumsan urna. Suspendisse maximus fringilla sem eu elementum. Donec orci nisi, faucibus at tincidunt vel, dignissim sit amet justo. Vivamus aliquam purus sit amet vulputate tincidunt. Donec venenatis sit amet neque at vulputate. Aliquam at tempus urna. </p>
                     </div>
                 
             </div>
-            <div class="col-3"style="width: 950px;" href="#">
-                <img class="rounded mx-auto d-block" id="img-index" src="https://www.diarioveterinario.com/images/showid2/2860071?w=900" alt="medico veterinario atendiendo" >
-            </div>
-            <div class="mb-3 row" style="width: 950px;" href="#">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis mi non metus semper, convallis fringilla justo placerat. Fusce pharetra vitae erat nec scelerisque. Praesent rhoncus dignissim risus a consectetur. Fusce sed orci non neque ultricies accumsan. Vestibulum risus quam, malesuada eget porttitor sed, maximus ut lorem. Nam non sem dapibus, euismod est vel, porttitor elit. Fusce congue augue erat, sit amet tempor leo fringilla ac. Sed nec metus tempus, ornare leo ac, blandit sem. In maximus orci et quam pulvinar tempus. Morbi et risus ut erat finibus ullamcorper. Aenean et lacus et arcu dictum iaculis eget eu erat. Nulla suscipit ligula a libero eleifend luctus. Integer neque arcu, ultrices eget dolor quis, dictum dictum dolor. Maecenas dui dolor, pulvinar vel nibh ac, consequat porttitor ligula.
-                  Suspendisse quis urna et magna consectetur malesuada. Pellentesque mattis quis arcu sit amet sollicitudin. Nunc congue, mauris sit amet pulvinar fermentum, massa nulla dignissim leo, eu pulvinar tellus arcu vitae odio. Praesent in accumsan urna. Suspendisse maximus fringilla sem eu elementum. Donec orci nisi, faucibus at tincidunt vel, dignissim sit amet justo. Vivamus aliquam purus sit amet vulputate tincidunt. Donec venenatis sit amet neque at vulputate. Aliquam at tempus urna. </p>
-              </div>
-            </div>
-        </div>
+<div class="container w-50 h-50 position-relative">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1200px-Flag_of_France.svg.png" class="d-block w-100" alt="...">
+        <figure class="figure">
+          <figcaption class="figure-caption">La bandera de Francia</figcaption>
+        </figure>
+      </div>
+      <div class="carousel-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/1024px-Flag_of_Portugal.svg.png" class="d-block w-100" alt="...">
+        <figure class="figure">
+          <figcaption class="figure-caption">Esta es la portuguesa.</figcaption>
+        </figure>
+      </div>
+      <div class="carousel-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/2560px-Flag_of_Spain.svg.png" class="d-block w-100" alt="...">
+        <figure class="figure">
+          <figcaption class="figure-caption">La española</figcaption>
+        </figure>
+        <button type="button" class="btn btn-primary">
+          Nueva <span class="badge bg-secondary"></span>
+        </button>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+</div>
+<div class="mb-3 row" style="width: 950px;" href="#">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis mi non metus semper, convallis fringilla justo placerat. Fusce pharetra vitae erat nec scelerisque. Praesent rhoncus dignissim risus a consectetur. Fusce sed orci non neque ultricies accumsan. Vestibulum risus quam, malesuada eget porttitor sed, maximus ut lorem. Nam non sem dapibus, euismod est vel, porttitor elit. Fusce congue augue erat, sit amet tempor leo fringilla ac. Sed nec metus tempus, ornare leo ac, blandit sem. In maximus orci et quam pulvinar tempus. Morbi et risus ut erat finibus ullamcorper. Aenean et lacus et arcu dictum iaculis eget eu erat. Nulla suscipit ligula a libero eleifend luctus. Integer neque arcu, ultrices eget dolor quis, dictum dictum dolor. Maecenas dui dolor, pulvinar vel nibh ac, consequat porttitor ligula.
+      Suspendisse quis urna et magna consectetur malesuada. Pellentesque mattis quis arcu sit amet sollicitudin. Nunc congue, mauris sit amet pulvinar fermentum, massa nulla dignissim leo, eu pulvinar tellus arcu vitae odio. Praesent in accumsan urna. Suspendisse maximus fringilla sem eu elementum. Donec orci nisi, faucibus at tincidunt vel, dignissim sit amet justo. Vivamus aliquam purus sit amet vulputate tincidunt. Donec venenatis sit amet neque at vulputate. Aliquam at tempus urna. </p>
+  </div>
+</div>
+</div>
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Inicio</li>
+            <li class="breadcrumb-item"><a href="./refer.html">Referencias</a></li>
+            <li class="breadcrumb-item"><a href="./contact.html">Contacto</a></li>
+          </ol>
+        </nav>
 
         <div class="container">
           <div class="row">
               <div class="col-5" style="width: 50%;" href="#">
-                  <h2>Redes</h2>
+                  <h2 class="netTitle">Redes</h2>
                   <div>
                   <a class="networks" href="https://www.facebook.com">Facebook</a>
                   <br>

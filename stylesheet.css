@@ -16,3 +16,50 @@
 .foot{
     text-align: center;
 }
+.prev{
+    color: brown;
+}
+#accordionExample{
+    display: none;
+}
+.navbar-brand{
+    font-family: 'Teko', sans-serif;
+}
+.carousel-item .figure .button{
+    display: none;
+}
+
+@media (max-width:768px) {
+    .container{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+    }
+    .form-control{
+        font-family:Arial, Helvetica, sans-serif
+    }
+    .head2{
+        color: brown;
+    }
+    .container-fluid{
+        background-color:hotpink;
+        text-decoration: white;
+    }
+    .card{
+        display: none;
+    }
+    .accordion{
+        display: grid;
+    }
+    .networks{
+        color: hotpink;
+    }
+    .netTitle{
+        color: indianred;
+    }
+    figcaption{
+        display:none;
+    }
+    .carousel-item .btn{
+        display: none;
+    }
+}
